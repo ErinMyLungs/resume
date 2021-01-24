@@ -1,18 +1,27 @@
 % resume base
 
-\documentclass[a4paper, nocolor]{moderncv}
+\documentclass[11pt]{moderncv}
+\moderncvtheme[burgundy]{classic}
 
-\moderncvtheme{classic}
+\usepackage[scale=0.82]{geometry}
 
-\usepackage[scale=0.8]{geometry}
 \recomputelengths
 
 \input{./contact/example_contact.tex}
+% \input{./contact/contact.tex}
 
 \begin{document}
 \maketitle
 
 \section{Employment}
 \input{employment/employment_section.tex}
+
+
+\section{Skills}
+\input{skills/skills_section.tex}
+
+
+% \section{Personal Projects}
+% \input{projects/projects_section.tex}
 
 \end{document}
