@@ -1,1 +1,1 @@
-{"build": "podman build -t latex . \"$@\"", "compile": "podman run -v $PWD:/resume latex bash -c \"pdflatex /resume/resume.tex /resume/resume.pdf\" \"$@\""}
+{"build": "podman build -t latex . \"$@\"", "compile": "podman run -v $PWD:/resume latex bash -c \"pdflatex /resume/resume.tex /resume/resume.pdf\" \"$@\"", "watch-compile": "ls **/*tex | entr -s 'cd ~/Projects/resume && source ~/.zshrc && compile' \"$@\""}
