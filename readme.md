@@ -2,7 +2,7 @@
 
 A basic modular resume repo setup in LaTeX. `example_resume_output.pdf` contains an example resume with faked contact info.
 
-<img src="./example_resume_output.png" width="250" alt="Example resume with an experience section containing two jobs and a skills section containing 3 columns.">
+<img src="./example_resume_output.png" width="400" alt="Example resume with an experience section containing two jobs and a skills section containing 3 columns.">
 
 ## Structure
 * `resume.tex` - 
@@ -30,4 +30,5 @@ A basic modular resume repo setup in LaTeX. `example_resume_output.pdf` contains
 
 The Dockerfile is a modified version of the [dev container example](https://github.com/James-Yu/LaTeX-Workshop/blob/master/samples/docker/.devcontainer/Dockerfile) given for the LaTeX-Workshop VS code plugin. I need to streamline the dependencies because right now the image takes up 2.77gb of space but I think that can get trimmed down.
 
-[The perfect VS code + Docker + LaTeX setup](https://medium.com/@kombustor/vs-code-docker-latex-setup-f84128c6f790) which I used to set up this environment originally.
+[The perfect VS code + Docker + LaTeX setup](https://medium.com/@kombustor/vs-code-docker-latex-setup-f84128c6f790) which I used to set up this environment originally.\social[gitlab]{ErinMyLungs}
+\social[github]{ErinMyLungs}
