@@ -2,6 +2,8 @@
 
 A basic modular resume repo setup in LaTeX. `example_resume_output.pdf` contains an example resume with faked contact info.
 
+<img src="./example_resume_output.png" width="250" alt="Example resume with an experience section containing two jobs and a skills section containing 3 columns.">
+
 ## Structure
 * `resume.tex` - 
   * This imports each section and sets styling options.
